@@ -1,9 +1,9 @@
+import Navbar from "./components/navbar";
+
 export default function App() {
-
-  return (
-    <>
-      <h1 className="text-center">React Funcionando corretamente</h1>
-    </>
-  )
+	return (
+		<div className="w-screen h-screen bg-black text-white font-poppins py-[40px] px-[4%]">
+			<Navbar />
+		</div>
+	);
 }
-
